@@ -1,0 +1,43 @@
+{
+  "name": "vortex-md",
+  "version": "1.0.0",
+  "description": "Advanced WhatsApp Multi-Device Bot using Baileys MD",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "stop": "pkill -f 'node index.js'"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "md",
+    "multi-device"
+  ],
+  "author": "VORTEX Development",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0",
+    "qrcode-terminal": "^0.12.0",
+    "chalk": "^5.3.0",
+    "axios": "^1.6.8",
+    "dotenv": "^16.3.1",
+    "pino": "^8.17.2",
+    "pino-pretty": "^10.3.1",
+    "jimp": "^0.22.12",
+    "sharp": "^0.33.1",
+    "node-cache": "^5.1.2",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.46",
+    "uuid": "^9.0.1",
+    "glob": "^10.3.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
